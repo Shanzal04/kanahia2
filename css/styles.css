@@ -1362,7 +1362,11 @@ nav{
 .basic-4 .image-wrapper {
 	overflow: hidden;
 	margin-bottom: 1.5rem;
+<<<<<<< HEAD
 	border-radius: 80px;
+=======
+	border-radius: 20px;
+>>>>>>> fcefe46748ffee5c41526dc4e364a9fcb361b787
 }
 
 .basic-4 .image-wrapper img {
