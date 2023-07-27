@@ -18,4 +18,6 @@ If you want to set up a local development environment, there are only a few step
 
 And that’s it! 🎉 Contributing to other open source projects is very similar, so you know the steps already!
 
+## Need Help?
+Feel free to [mail us](mailto::entrepreneurship@iitp.ac.in)
 
