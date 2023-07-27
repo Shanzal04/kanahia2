@@ -45,7 +45,7 @@ html {
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: black;
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -60,12 +60,17 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  /* background-color: black; */
+  background-image: url('../images/ecell\ home.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
+
 
 hr {
   box-sizing: content-box;
@@ -478,7 +483,7 @@ mark,
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .img-thumbnail {
@@ -545,12 +550,23 @@ pre code {
   overflow-y: scroll;
 }
 
+/* .form-container{
+  margin-left:80px;
+} */
+
+@media (max-width: 992px){
+.col-lg-4 {
+   align-items: center;
+   text-align:center ;
+}
+}
 .container {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  /* background-color: black; */
 }
 
 @media (min-width: 576px) {
@@ -568,6 +584,7 @@ pre code {
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
+    /* background-color: #0000002f; */
   }
 }
 
@@ -1014,6 +1031,10 @@ pre code {
     flex: 0 0 8.333333%;
     max-width: 8.333333%;
   }
+.form-container{
+  margin-left: 80px;
+}
+
   .col-md-2 {
     -ms-flex: 0 0 16.666667%;
     flex: 0 0 16.666667%;
@@ -1200,6 +1221,7 @@ pre code {
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
+    
   }
   .col-lg-5 {
     -ms-flex: 0 0 41.666667%;
@@ -4177,6 +4199,9 @@ input[type="button"].btn-block {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
+}
+.navbar-brand logo-image{
+  background: transparent;
 }
 
 .navbar-brand:hover, .navbar-brand:focus {

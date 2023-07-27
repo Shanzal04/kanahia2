@@ -6,4 +6,5 @@
 .collab {
     object-fit: contain;
     margin: auto 0;
+    background-color: white;
 }
